@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Ginger Repository Item created with version: 2.7.0.0-->
-<GingerCore.Agent Active="False" Created="5/16/2018 2:22:27 PM" CreatedBy="deshpank" DriverType="SeleniumIE" Guid="e2c573a6-ce65-425c-b394-70ea98b81fb2" LastUpdate="5/16/2018 2:22:27 PM" LastUpdateBy="deshpank" Name="MyWebApp - Agent 1" ParentGuid="00000000-0000-0000-0000-000000000000" Port="0" Remote="False" Version="1">
+<GingerCore.Agent Active="False" Created="5/16/2018 2:22:27 PM" CreatedBy="deshpank" DriverType="SeleniumIE" Guid="e2c573a6-ce65-425c-b394-70ea98b81fb2" LastUpdate="5/17/2018 9:56:51 AM" LastUpdateBy="deshpank" Name="MyWebApp - Agent 1" Notes="vvvv" ParentGuid="00000000-0000-0000-0000-000000000000" Port="0" Remote="False" Version="2">
 <AdvanceAgentConfigurations>
 </AdvanceAgentConfigurations>
 
