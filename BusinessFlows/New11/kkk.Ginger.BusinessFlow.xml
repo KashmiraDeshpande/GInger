@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 2.7.0.0-->
+<GingerCore.BusinessFlow Active="True" Created="6/19/2018 3:41:02 PM" CreatedBy="deshpank" EnableActivitiesVariablesDependenciesControl="False" Guid="74d88f1a-af19-4914-a0d8-26f4705a08b5" LastUpdate="6/19/2018 3:41:02 PM" LastUpdateBy="deshpank" Mandatory="False" Name="kkk" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Version="1">
+<Activities>
+<GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Activity 1" AutomationStatus="Development" Created="6/19/2018 3:41:02 PM" CreatedBy="deshpank" EnableActionsVariablesDependenciesControl="False" ErrorHandlerMappingType="AllAvailableHandlers" Guid="82d29040-d991-4e63-ae17-5c0ccb43096d" LastUpdate="1/1/0001 12:00:00 AM" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="0%" TargetApplication="MyWebApp" Version="0">
+<Acts>
+</Acts>
+
+<MappedErrorHandlers>
+</MappedErrorHandlers>
+
+<Tags>
+</Tags>
+
+<Variables>
+</Variables>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Activity>
+</Activities>
+
+<ActivitiesGroups>
+</ActivitiesGroups>
+
+<BFFlowControls>
+</BFFlowControls>
+
+<Tags>
+</Tags>
+
+<TargetApplications>
+<GingerCore.Platforms.TargetApplication AppName="MyWebApp" Created="6/19/2018 3:41:02 PM" CreatedBy="deshpank" Guid="a8ef5def-e19f-4301-abfd-d95a51110926" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+</TargetApplications>
+
+<Variables>
+</Variables>
+</GingerCore.BusinessFlow>
