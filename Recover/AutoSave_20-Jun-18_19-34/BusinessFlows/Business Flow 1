@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<!--Ginger Repository Item created with version: 3.0.0.0-->
-<GingerCore.BusinessFlow Active="True" Created="5/16/2018 2:22:27 PM" CreatedBy="deshpank" Description="asasllggggg" EnableActivitiesVariablesDependenciesControl="False" Guid="0e026730-1d2b-4f55-80b3-fd39d9c7bd57" LastUpdate="7/17/2018 10:58:58 AM" LastUpdateBy="deshpank" Mandatory="False" Name="Business Flow 1" ParentGuid="00000000-0000-0000-0000-000000000000" RunDescription="cccc" Source="Ginger" Version="11">
+<!--Ginger Repository Item created with version: 2.7.0.0-->
+<GingerCore.BusinessFlow Active="True" Created="5/16/2018 2:22:27 PM" CreatedBy="deshpank" Description="asasll" EnableActivitiesVariablesDependenciesControl="False" Guid="0e026730-1d2b-4f55-80b3-fd39d9c7bd57" LastUpdate="6/19/2018 3:44:52 PM" LastUpdateBy="deshpank" Mandatory="False" Name="Business Flow 1" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Version="4">
 <Activities>
 <GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Activity 1" AutomationStatus="Development" Created="5/16/2018 2:22:27 PM" CreatedBy="deshpank" EnableActionsVariablesDependenciesControl="False" ErrorHandlerMappingType="AllAvailableHandlers" Guid="02732d8f-f112-418f-b2a3-36c96be072b0" LastUpdate="1/1/0001 12:00:00 AM" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="0%" TargetApplication="MyWebApp" Version="0">
 <Acts>
