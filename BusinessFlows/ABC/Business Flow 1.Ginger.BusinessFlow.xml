@@ -1,9 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="ab4e6fc4-7da0-4b64-8509-1797155b076c" ItemType="BusinessFlow" CreatedBy="JKAUR" Created="201810121222" GingerVersion="3.0.0.0" Version="1" LastUpdateBy="JKAUR" LastUpdate="201810121222" />
+<GingerRepositoryItem><Header ItemGuid="ab4e6fc4-7da0-4b64-8509-1797155b076c" ItemType="BusinessFlow" CreatedBy="JKAUR" Created="201810121222" GingerVersion="3.0.0.0" Version="2" LastUpdateBy="JKAUR" LastUpdate="201810121227" />
 <BusinessFlow Active="True" Description="asasll" Guid="ab4e6fc4-7da0-4b64-8509-1797155b076c" Name="Business Flow 1" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Status="Unknown">
 <Activities>
 <Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Activity 1" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="aff07741-e982-41c1-bbb2-c1e5da8bc604" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="0%" TargetApplication="MyWebApp" />
 <Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="New Activity" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="5374a8bd-4026-49a6-a5c3-cb5bf2e904fb" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="0%" TargetApplication="MyWebApp" />
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="New Activity" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="44fba944-c176-4850-baab-3fed87e2aa8d" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="0%" TargetApplication="MyWebApp" />
 </Activities>
 
 <TargetApplications>
