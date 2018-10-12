@@ -1,38 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<!--Ginger Repository Item created with version: 3.0.0.0-->
-<GingerCore.BusinessFlow Active="True" Created="5/16/2018 2:22:27 PM" CreatedBy="deshpank" Description="asasll" EnableActivitiesVariablesDependenciesControl="False" Guid="ab4e6fc4-7da0-4b64-8509-1797155b076c" LastUpdate="7/17/2018 11:10:07 AM" LastUpdateBy="deshpank" Mandatory="False" Name="Business Flow 1" ParentGuid="00000000-0000-0000-0000-000000000000" RunDescription="vgv" Source="Ginger" Version="8">
+<GingerRepositoryItem><Header ItemGuid="ab4e6fc4-7da0-4b64-8509-1797155b076c" ItemType="BusinessFlow" CreatedBy="JKAUR" Created="201810121224" GingerVersion="3.0.0.0" Version="1" LastUpdateBy="JKAUR" LastUpdate="201810121224" />
+<BusinessFlow Active="True" Description="asasll" Guid="ab4e6fc4-7da0-4b64-8509-1797155b076c" Name="Business Flow 1" ParentGuid="00000000-0000-0000-0000-000000000000" RunDescription="vgv" Source="Ginger" Status="Unknown">
 <Activities>
-<GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Activity 1" AutomationStatus="Development" Created="5/16/2018 2:22:27 PM" CreatedBy="deshpank" EnableActionsVariablesDependenciesControl="False" ErrorHandlerMappingType="AllAvailableHandlers" Guid="aff07741-e982-41c1-bbb2-c1e5da8bc604" LastUpdate="1/1/0001 12:00:00 AM" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="0%" TargetApplication="MyWebApp" Version="0">
-<Acts>
-</Acts>
-
-<MappedErrorHandlers>
-</MappedErrorHandlers>
-
-<Tags>
-</Tags>
-
-<Variables>
-</Variables>
-
-<VariablesDependencies>
-</VariablesDependencies>
-</GingerCore.Activity>
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Activity 1" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="aff07741-e982-41c1-bbb2-c1e5da8bc604" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="0%" TargetApplication="MyWebApp" />
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="New Activity" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="da25bec1-cc83-4819-bc91-11e8c54aa395" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="0%" TargetApplication="MyWebApp" />
 </Activities>
 
-<ActivitiesGroups>
-</ActivitiesGroups>
-
-<BFFlowControls>
-</BFFlowControls>
-
-<Tags>
-</Tags>
-
 <TargetApplications>
-<GingerCore.Platforms.TargetApplication AppName="MyWebApp" Created="5/16/2018 2:22:27 PM" CreatedBy="deshpank" Guid="4ee6b8e9-cc8a-4ab2-9488-53a03a496688" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+<TargetApplication AppName="MyWebApp" Guid="4ee6b8e9-cc8a-4ab2-9488-53a03a496688" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </TargetApplications>
-
-<Variables>
-</Variables>
-</GingerCore.BusinessFlow>
+</BusinessFlow></GingerRepositoryItem>
