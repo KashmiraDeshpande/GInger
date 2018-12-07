@@ -1,24 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<!--Ginger Repository Item created with version: 3.0.0.0-->
-<Ginger.Environments.Solution AlmType="QC" Created="5/16/2018 2:22:08 PM" CreatedBy="deshpank" Guid="4c2b9ad5-a3be-4e7a-9303-f832bf02a5b6" LastBusinessFlowFileName="C:\GingerSourceControl\Solutions\GInger\\BusinessFlows\Business Flow 1.Ginger.BusinessFlow.xml" LastUpdate="7/2/2018 12:33:29 PM" LastUpdateBy="deshpank" Name="GITSolution" ParentGuid="00000000-0000-0000-0000-000000000000" ShowIndicationkForLockedItems="False" Version="9">
+<GingerRepositoryItem><Header ItemGuid="4c2b9ad5-a3be-4e7a-9303-f832bf02a5b6" ItemType="Solution" CreatedBy="SUBODHSI" Created="201812070845" GingerVersion="3.0.0.0" Version="2" LastUpdateBy="SUBODHSI" LastUpdate="201812070845" />
+<Solution AlmType="QC" Guid="4c2b9ad5-a3be-4e7a-9303-f832bf02a5b6" LastBusinessFlowFileName="C:\Users\subodhsi\Desktop\GInger\BusinessFlows\ABC\Business Flow 1.Ginger.BusinessFlow.xml" Name="GITSolution" ParentGuid="00000000-0000-0000-0000-000000000000">
 <ApplicationPlatforms>
-<GingerCore.Platforms.ApplicationPlatform AppName="MyWebApp" CoreGUID="00000000-0000-0000-0000-000000000000" Created="5/16/2018 2:22:27 PM" CreatedBy="deshpank" Guid="55e5bdaf-82c5-4373-9450-1383397f06c2" GUID="00000000-0000-0000-0000-000000000000" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" Version="0" />
+<ApplicationPlatform AppName="MyWebApp" CoreGUID="00000000-0000-0000-0000-000000000000" Guid="55e5bdaf-82c5-4373-9450-1383397f06c2" GUID="00000000-0000-0000-0000-000000000000" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" />
 </ApplicationPlatforms>
 
 <ExecutionLoggerConfigurationSetList>
-<Ginger.Reports.ExecutionLoggerConfiguration Created="5/16/2018 2:25:05 PM" CreatedBy="deshpank" ExecutionLoggerConfigurationExecResultsFolder="~\ExecutionResults\" ExecutionLoggerConfigurationIsEnabled="True" ExecutionLoggerConfigurationMaximalFolderSize="250" Guid="eb8f365b-f75d-4554-8708-994f370d8ce0" IsSelected="True" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Seq="0" Version="0" />
+<ExecutionLoggerConfiguration ExecutionLoggerConfigurationExecResultsFolder="~\ExecutionResults\" ExecutionLoggerConfigurationIsEnabled="True" ExecutionLoggerConfigurationMaximalFolderSize="250" Guid="eb8f365b-f75d-4554-8708-994f370d8ce0" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" Seq="0" />
 </ExecutionLoggerConfigurationSetList>
 
-<ExternalItemsFields>
-</ExternalItemsFields>
-
 <HTMLReportsConfigurationSetList>
-<Ginger.Reports.HTMLReportsConfiguration Guid="f38d13a1-05b9-4b94-aa01-9ee9daa78fef" HTMLReportConfigurationMaximalFolderSize="0" HTMLReportsAutomaticProdIsEnabled="False" HTMLReportsFolder="~\HTMLReports\" HTMLReportTemplatesSeq="0" IsSelected="True" LimitReportFolderSize="False" ParentGuid="00000000-0000-0000-0000-000000000000" Seq="0" />
+<HTMLReportsConfiguration Guid="f38d13a1-05b9-4b94-aa01-9ee9daa78fef" HTMLReportConfigurationMaximalFolderSize="0" HTMLReportsFolder="~\HTMLReports\" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" Seq="0" />
 </HTMLReportsConfigurationSetList>
-
-<Tags>
-</Tags>
-
-<Variables>
-</Variables>
-</Ginger.Environments.Solution>
+</Solution></GingerRepositoryItem>
