@@ -1,8 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="ab4e6fc4-7da0-4b64-8509-1797155b076c" ItemType="BusinessFlow" CreatedBy="JKAUR" Created="201810121222" GingerVersion="3.0.0.0" Version="3" LastUpdateBy="SUBODHSI" LastUpdate="201812070836" />
+<GingerRepositoryItem><Header ItemGuid="ab4e6fc4-7da0-4b64-8509-1797155b076c" ItemType="BusinessFlow" CreatedBy="JKAUR" Created="201810121222" GingerVersion="3.0.0.0" Version="4" LastUpdateBy="SUBODHSI" LastUpdate="201812070844" />
 <BusinessFlow Description="asasll" Guid="ab4e6fc4-7da0-4b64-8509-1797155b076c" Name="Business Flow 1" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Status="Unknown">
 <Activities>
 <Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Activity 1" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="aff07741-e982-41c1-bbb2-c1e5da8bc604" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="0%" TargetApplication="MyWebApp" />
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="New Test" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="b446627a-82a8-4a4e-8702-fc113a52beb0" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="MyWebApp">
+<Acts>
+<ActScreenShot Active="True" Description="Screen Shot Action" Guid="5229a44f-f92f-48de-b70c-5e67987f3ee5" LocateBy="NA" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="34391ee4-f380-41a1-ac23-a929647b4c89" Param="SaveToFileName" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+</ActScreenShot>
+</Acts>
+</Activity>
 <Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Test" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="bbeb9237-6084-4cbf-9154-bffd6b942451" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="MyWebApp">
 <Acts>
 <ActBrowserElement Active="True" ControlAction="InitializeBrowser" Description="Browser Action" GotoURLRadioButton="Current" Guid="c1a0b3ad-2242-454a-bc9b-bc9c901a8f1b" ImplicitWait="60" LocateBy="NA" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
