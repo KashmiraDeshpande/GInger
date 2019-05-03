@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="4d4b8ab0-d9e6-4e08-add8-fd3bb9fd3750" ItemType="RunSetConfig" CreatedBy="deshpank" Created="201905030812" GingerVersion="3.2.4.1" Version="2" LastUpdateBy="deshpank" LastUpdate="201905030813" />
+<RunSetConfig Guid="4d4b8ab0-d9e6-4e08-add8-fd3bb9fd3750" Name="AAA" ParentGuid="00000000-0000-0000-0000-000000000000">
+<GingerRunners>
+<GingerRunner Guid="64daecc8-879d-42dd-8410-e43cbc3ef549" Name="Runner 1" ParentGuid="00000000-0000-0000-0000-000000000000" RunOption="ContinueToRunall">
+<ApplicationAgents>
+<ApplicationAgent AppName="MyWebApp" Guid="82dddb99-4b5a-499a-88ad-3eaf22c64270" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ApplicationAgents>
+
+<BusinessFlowsRunList>
+<BusinessFlowRun BusinessFlowGuid="18481575-e3d3-4a4d-b305-34cf0cdcaa80" BusinessFlowInstanceGuid="7420319f-ded0-43a3-b629-132c57fb8c07" BusinessFlowIsActive="True" BusinessFlowName="NEW" Guid="e5ee5b6b-3d06-49b6-90c4-2d87372edef9" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</BusinessFlowsRunList>
+</GingerRunner>
+</GingerRunners>
+
+<RunSetActions>
+<RunSetActionHTMLReportSendEmail Condition="AlwaysRun" Guid="ddb8e772-4f43-423e-9e01-6e9c31e89895" HTMLReportTemplate="HTMLReport" MailFrom="Kashmira.Deshpande@amdocs.com" MailTo="Kashmira.Deshpande@amdocs.com" Name="Send HTML Report Email" ParentGuid="00000000-0000-0000-0000-000000000000" RunAt="ExecutionEnd" Subject="sss">
+<Email>
+<Email EmailMethod="SMTP" Guid="e01888d2-11c7-4a58-9a86-6e12e9acead0" ParentGuid="00000000-0000-0000-0000-000000000000" SMTPPort="25">
+<Attachments>
+</Attachments>
+</Email>
+</Email>
+</RunSetActionHTMLReportSendEmail>
+</RunSetActions>
+</RunSetConfig></GingerRepositoryItem>
