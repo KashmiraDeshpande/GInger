@@ -1,8 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="ab4e6fc4-7da0-4b64-8509-1797155b076c" ItemType="BusinessFlow" CreatedBy="JKAUR" Created="201810121224" GingerVersion="3.0.0.0" Version="3" LastUpdateBy="JKAUR" LastUpdate="201810130019" />
-<BusinessFlow Active="True" Description="asasll" Guid="ab4e6fc4-7da0-4b64-8509-1797155b076c" Name="Business Flow 1" ParentGuid="00000000-0000-0000-0000-000000000000" RunDescription="vgv" Source="Ginger" Status="Unknown">
+<GingerRepositoryItem><Header ItemGuid="ab4e6fc4-7da0-4b64-8509-1797155b076c" ItemType="BusinessFlow" CreatedBy="JKAUR" Created="201810121224" GingerVersion="3.2.0.0" Version="4" LastUpdateBy="deshpank" LastUpdate="201905030753" />
+<BusinessFlow Description="asasll" Guid="ab4e6fc4-7da0-4b64-8509-1797155b076c" Name="Business Flow 1" ParentGuid="00000000-0000-0000-0000-000000000000" RunDescription="vgv" Source="Ginger" Status="Unknown">
 <Activities>
-<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Activity 1" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="aff07741-e982-41c1-bbb2-c1e5da8bc604" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="0%" TargetApplication="MyWebApp" />
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Activity 1" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="aff07741-e982-41c1-bbb2-c1e5da8bc604" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="MyWebApp">
+<Acts>
+<ActDummy Active="True" Description="Dummy Action" Guid="364fcb5d-fd3a-420f-9f66-8cce43ba9e15" LocateBy="NA" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="c8c767f4-4be6-4193-8458-ecfd2bbcb797" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+</ActDummy>
+</Acts>
+</Activity>
 <Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="New Activity" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="55a054da-a4a0-4068-b6f5-a96ee2872f27" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="0%" TargetApplication="MyWebApp" />
 <Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="New Activity" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="894f740c-5f13-4efa-b5dc-c7c8cd33bdd4" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="0%" TargetApplication="MyWebApp" />
 <Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="New Activity" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="da25bec1-cc83-4819-bc91-11e8c54aa395" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="0%" TargetApplication="MyWebApp" />
