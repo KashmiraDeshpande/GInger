@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="18481575-e3d3-4a4d-b305-34cf0cdcaa80" ItemType="BusinessFlow" CreatedBy="deshpank" Created="201905030812" GingerVersion="3.2.4.1" Version="3" LastUpdateBy="deshpank" LastUpdate="201905030812" />
+<BusinessFlow Guid="18481575-e3d3-4a4d-b305-34cf0cdcaa80" Name="NEW" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Status="Unknown">
+<Activities>
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Activity 1" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="41099525-3295-4834-9d6f-016cfe8e3d5a" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="MyWebApp">
+<Acts>
+<ActDummy Active="True" Description="Dummy Action" Guid="454ced72-d167-4b06-8f86-cdc440d1c501" LocateBy="NA" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="8df912b0-2240-451a-94f4-847223d05a86" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+</ActDummy>
+</Acts>
+</Activity>
+</Activities>
+
+<TargetApplications>
+<TargetApplication AppName="MyWebApp" Guid="4cc394c4-2087-4718-bb2a-bc6c9d16b835" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</TargetApplications>
+</BusinessFlow></GingerRepositoryItem>

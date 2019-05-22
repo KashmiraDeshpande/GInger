@@ -1,0 +1,1 @@
+{"Name":"AAA","GUID":"4d4b8ab0-d9e6-4e08-add8-fd3bb9fd3750","StartTimeStamp":"2019-05-03T08:17:03.4698517Z","EndTimeStamp":"2019-05-03T08:17:04.4825008Z","GingerVersion":"3.2","MachineName":"DESHPANK02","ExecutedbyUser":"deshpank","Elapsed":1.012}
