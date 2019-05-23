@@ -1,15 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="4c2b9ad5-a3be-4e7a-9303-f832bf02a5b6" ItemType="Solution" CreatedBy="SUBODHSI" Created="201812070845" GingerVersion="3.0.0.0" Version="2" LastUpdateBy="SUBODHSI" LastUpdate="201812070845" />
-<Solution AlmType="QC" Guid="4c2b9ad5-a3be-4e7a-9303-f832bf02a5b6" LastBusinessFlowFileName="C:\Users\subodhsi\Desktop\GInger\BusinessFlows\ABC\Business Flow 1.Ginger.BusinessFlow.xml" Name="GITSolution" ParentGuid="00000000-0000-0000-0000-000000000000">
+<GingerRepositoryItem><Header ItemGuid="4c2b9ad5-a3be-4e7a-9303-f832bf02a5b6" ItemType="Solution" CreatedBy="SUBODHSI" Created="201812070845" GingerVersion="3.2.0.0" Version="7" LastUpdateBy="deshpank" LastUpdate="201905231852" />
+<Solution AlmType="QC" Guid="4c2b9ad5-a3be-4e7a-9303-f832bf02a5b6" Name="GITSolution" ParentGuid="00000000-0000-0000-0000-000000000000">
 <ApplicationPlatforms>
 <ApplicationPlatform AppName="MyWebApp" CoreGUID="00000000-0000-0000-0000-000000000000" Guid="55e5bdaf-82c5-4373-9450-1383397f06c2" GUID="00000000-0000-0000-0000-000000000000" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" />
 </ApplicationPlatforms>
 
 <ExecutionLoggerConfigurationSetList>
-<ExecutionLoggerConfiguration ExecutionLoggerConfigurationExecResultsFolder="~\ExecutionResults\" ExecutionLoggerConfigurationIsEnabled="True" ExecutionLoggerConfigurationMaximalFolderSize="250" Guid="eb8f365b-f75d-4554-8708-994f370d8ce0" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" Seq="0" />
+<ExecutionLoggerConfiguration ExecutionLoggerConfigurationExecResultsFolder="C:\GingerSourceControl\Solutions\GInger\ExecutionResults\" ExecutionLoggerConfigurationIsEnabled="True" ExecutionLoggerConfigurationMaximalFolderSize="250" Guid="eb8f365b-f75d-4554-8708-994f370d8ce0" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" SelectedDataRepositoryMethod="TextFile" Seq="0" />
 </ExecutionLoggerConfigurationSetList>
 
 <HTMLReportsConfigurationSetList>
-<HTMLReportsConfiguration Guid="f38d13a1-05b9-4b94-aa01-9ee9daa78fef" HTMLReportConfigurationMaximalFolderSize="0" HTMLReportsFolder="~\HTMLReports\" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" Seq="0" />
+<HTMLReportsConfiguration Guid="f38d13a1-05b9-4b94-aa01-9ee9daa78fef" HTMLReportConfigurationMaximalFolderSize="0" HTMLReportsFolder="~\HTMLReports\" HTMLReportTemplatesSeq="1" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" Seq="0" />
 </HTMLReportsConfigurationSetList>
+
+<Tags>
+<RepositoryItemTag Guid="b816e46d-228a-44de-9d50-0836619efca9" Name="New" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</Tags>
 </Solution></GingerRepositoryItem>
