@@ -1,17 +1,27 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="18481575-e3d3-4a4d-b305-34cf0cdcaa80" ItemType="BusinessFlow" CreatedBy="deshpank" Created="201905030812" GingerVersion="3.2.4.1" Version="3" LastUpdateBy="deshpank" LastUpdate="201905030812" />
+<GingerRepositoryItem><Header ItemGuid="18481575-e3d3-4a4d-b305-34cf0cdcaa80" ItemType="BusinessFlow" CreatedBy="deshpank" Created="201905030812" GingerVersion="3.4.0.0" Version="4" LastUpdateBy="aditijag" LastUpdate="201909051335" />
 <BusinessFlow Guid="18481575-e3d3-4a4d-b305-34cf0cdcaa80" Name="NEW" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Status="Unknown">
 <Activities>
-<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Activity 1" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="41099525-3295-4834-9d6f-016cfe8e3d5a" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="MyWebApp">
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="Activity 1" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="41099525-3295-4834-9d6f-016cfe8e3d5a" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="MyWebApp">
 <Acts>
-<ActDummy Active="True" Description="Dummy Action" Guid="454ced72-d167-4b06-8f86-cdc440d1c501" LocateBy="NA" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<ActDummy Active="True" Description="Dummy Action" Guid="454ced72-d167-4b06-8f86-cdc440d1c501" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
 <InputValues>
 <ActInputValue Guid="8df912b0-2240-451a-94f4-847223d05a86" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </InputValues>
 </ActDummy>
+<ActScreenShot Active="True" Description="Screen Shot Action" Guid="6982e926-5428-4e7e-a92a-6eaa1b7eade5" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow" />
+<ActDummy Active="True" Description="Dummy Action" Guid="3401f051-5087-40ab-b179-5ea55780e20e" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow" />
 </Acts>
 </Activity>
 </Activities>
+
+<ActivitiesGroups>
+<ActivitiesGroup Guid="07f782b3-efe3-4dea-8907-4ab74b378726" Name="Group" ParentGuid="00000000-0000-0000-0000-000000000000">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="41099525-3295-4834-9d6f-016cfe8e3d5a" ActivityName="Activity 1" Guid="89d62d93-be29-4cd0-a687-adc4283baa6a" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup>
+</ActivitiesGroups>
 
 <TargetApplications>
 <TargetApplication AppName="MyWebApp" Guid="4cc394c4-2087-4718-bb2a-bc6c9d16b835" ParentGuid="00000000-0000-0000-0000-000000000000" />
